@@ -1347,21 +1347,49 @@ input, select, textarea {
 			#header .content .inner .salesText{
 				color: white;
 				text-align: left;
+				font-family: 'Courier New', Courier, monospace;
+			}
+
+			#header #profits {
+				display: flex;
+				justify-content: flex-start;
+				text-align: left;
 			}
 			
 
 			#header .content .inner .salesText .magic{
 				color: #bb2edf;
 				font-style: italic;
-				font-weight: 600;
+				font-weight: bold;
+				
+			}
+
+			/* .centerSpaced{
+				display: flex;
+				justify-content: space-around;
+			} */
+
+			/* #firstLine{
+				display: flex;
+				justify-content: center;
+			}  */
+
+			#bookPic{
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
 			}
 
 			#header .content .inner .salesText .purpleHeading{
 				color: #612f92;
-				text-align: center;
+				/* text-align: center; */
 				text-decoration: underline;
+				/* margin-left: auto;
+				margin-right: auto;
+				max-width: 33%; */
 			}
 
+			
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
