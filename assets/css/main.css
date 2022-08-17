@@ -1275,6 +1275,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
+	
 		}
 
 			#header > *:before {
@@ -1336,6 +1337,24 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				/* max-height: 40rem; */
 				overflow: hidden;
+				background-color: rgba(0,0,0,0.75);
+			}
+
+			#header .content .inner .salesText{
+				color: white;
+				text-align: left;
+			}
+
+			#header .content .inner .salesText .magic{
+				color: #bb2edf;
+				font-style: italic;
+				font-weight: 600;
+			}
+
+			#header .content .inner .salesText .purpleHeading{
+				color: #612f92;
+				text-align: center;
+				text-decoration: underline;
 			}
 
 				#header .content .inner > :last-child {
@@ -1343,7 +1362,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
