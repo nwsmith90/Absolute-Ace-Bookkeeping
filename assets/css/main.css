@@ -1339,7 +1339,7 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				/* max-height: 40rem; */
 				overflow: hidden;
-				background-color: rgba(0, 0, 0, 0.75);
+				/* background-color: rgba(0, 0, 0, 0.75); */
 				/* background-image: radial-gradient(ellipse, rgba(0,0,0.66), rgba(0,0,0,0)); */
 				/* background-image: linear-gradient(to right, rgba(0,0,0,.25) 10%,rgba(0,0,0,.75),rgba(0,0,0,.25) 90%); */
 			}
@@ -1354,6 +1354,7 @@ input, select, textarea {
 				display: flex;
 				justify-content: flex-start;
 				text-align: left;
+				width: 30%;
 			}
 			
 
@@ -1362,6 +1363,12 @@ input, select, textarea {
 				font-style: italic;
 				font-weight: bold;
 				
+			}
+
+			#header .image img{
+				display: flex;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 			/* .centerSpaced{
@@ -1373,6 +1380,46 @@ input, select, textarea {
 				display: flex;
 				justify-content: center;
 			}  */
+
+			#header .pageOne .topSection{
+				display: flex;
+				flex-direction: row;
+			}
+
+			#header .pageOne .columnLeft{
+				width: 50%;
+			}
+
+			#header .pageOne .columnRight{
+				width: 50%;
+				
+			}
+
+			#header .pageTwo{
+				display: flex;
+				flex-direction: row;
+			}
+
+			#header .pageTwo .columnLeft{
+				width: 50%;
+			}
+
+			#header .pageTwo .columnRight{
+				margin-top: 10%;
+				width: 50%;
+				
+			}
+
+			#header #womanCalc .pageTwo .columnRight img{
+				max-width: 75%;
+			}
+
+			#header .quotes{
+				font-style: italic;
+				font-size: large;
+				color: white;
+			}
+			
 
 			#bookPic{
 				display: flex;
