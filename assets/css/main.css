@@ -1339,7 +1339,7 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				/* max-height: 40rem; */
 				overflow: hidden;
-				/* background-color: rgba(0, 0, 0, 0.75); */
+				background-color: rgba(0, 0, 0, 0.75);
 				/* background-image: radial-gradient(ellipse, rgba(0,0,0.66), rgba(0,0,0,0)); */
 				/* background-image: linear-gradient(to right, rgba(0,0,0,.25) 10%,rgba(0,0,0,.75),rgba(0,0,0,.25) 90%); */
 			}
@@ -1406,6 +1406,42 @@ input, select, textarea {
 
 			#header .pageTwo .columnRight{
 				margin-top: 10%;
+				width: 50%;
+				
+			}
+
+			#header .pageThree{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageThree .columnLeft{
+				width: 50%;
+			}
+
+			#header .pageThree .columnRight{
+				margin-top: 30px;
+				width: 50%;
+				
+			}
+
+			#header #owner{
+				margin-top: 50px;
+			}
+
+			#header .pageFour{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageFour .columnLeft{
+				width: 50%;
+			}
+
+			#header .pageFour .columnRight{
+				margin-top: 40px;
 				width: 50%;
 				
 			}
