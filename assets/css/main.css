@@ -1567,6 +1567,12 @@ input, select, textarea {
 				max-width: 33%; */
 			}
 
+			@media (max-width:620px){
+				#phone, #doors, #paperwork{
+					display: none;
+				}
+			}
+
 			
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
