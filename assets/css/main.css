@@ -1468,13 +1468,77 @@ input, select, textarea {
 
 			#header .pageFive .columnLeft{
 				width: 50%;
-				border-top: #000000 solid medium;
+				border-top: #000000 solid thick;
 			}
 
 			#header .pageFive .columnRight{
 				margin-top: 40px;
 				width: 50%;
-				border-bottom: #000000 solid medium;
+				border-bottom: #000000 solid thick;
+			}
+
+			#header .pageSix{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageSix .columnLeft{
+				width: 50%;
+				border-top: #ffffff solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageSix .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #ffffff solid thick;
+			}
+
+			#header .pageSeven{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageSeven .columnLeft{
+				width: 50%;
+				border-top: #810081 solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageSeven .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #810081 solid thick;
+			}
+
+			#header .pageEight{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageEight .columnLeft{
+				width: 50%;
+				border-top: #ffffff solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageEight .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #ffffff solid thick;
+			}
+
+			#header .pageNine{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
 			}
 
 			#header #womanCalc .pageTwo .columnRight img{
