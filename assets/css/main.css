@@ -139,7 +139,7 @@ input, select, textarea {
 
 		}
 
-	body, input, select, textarea {
+	body, input, select, textarea header{
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
@@ -262,7 +262,7 @@ input, select, textarea {
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -270,7 +270,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -699,9 +699,10 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
 			margin: 2.5rem 0;
 			width: 100%;
+			justify-content: center;
 		}
 
 			.image.main img {
@@ -1275,6 +1276,8 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
+			font-family: "Source Sans Pro", sans-serif;
+	
 		}
 
 			#header > *:before {
@@ -1334,16 +1337,249 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
+				/* max-height: 40rem; */
 				overflow: hidden;
+				background-color: rgba(0, 0, 0, 0.75);
+				/* background-image: radial-gradient(ellipse, rgba(0,0,0.66), rgba(0,0,0,0)); */
+				/* background-image: linear-gradient(to right, rgba(0,0,0,.25) 10%,rgba(0,0,0,.75),rgba(0,0,0,.25) 90%); */
 			}
 
+			#header .content .inner .salesText{
+				color: white;
+				text-align: left;
+				font-family: 'Courier New', Courier, monospace;
+			}
+
+			#header #profits {
+				display: flex;
+				justify-content: flex-start;
+				text-align: left;
+				width: 30%;
+			}
+			
+
+			#header .content .inner .salesText .magic{
+				color: #bb2edf;
+				font-style: italic;
+				font-weight: bold;
+				
+			}
+
+			#header .image img{
+				display: flex;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			/* .centerSpaced{
+				display: flex;
+				justify-content: space-around;
+			} */
+
+			/* #firstLine{
+				display: flex;
+				justify-content: center;
+			}  */
+
+			#header .pageOne .topSection{
+				display: flex;
+				flex-direction: row;
+				
+			}
+
+			#header .pageOne .columnLeft{
+				width: 50%;
+				border-top: #000000 solid medium;
+				
+			}
+
+			#header .pageOne .columnRight{
+				width: 50%;
+				
+			}
+
+			#header .pageOne .bottomSection{
+				border-bottom: solid medium rgba(0, 0, 0, 1);
+				margin-bottom: 2rem;
+			}
+
+			#header .pageTwo{
+				display: flex;
+				flex-direction: row;
+				margin-top: 2rem;
+			}
+
+			#header .pageTwo .columnLeft{
+				width: 50%;
+				border-top: #ffffff solid medium;
+			}
+
+			#header .pageTwo .columnRight{
+				margin-top: 10%;
+				width: 50%;
+				border-bottom: solid medium white;
+			}
+
+			#header .pageThree{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageThree .columnLeft{
+				width: 50%;
+				border-top: #a4a4a4 solid medium;
+			}
+
+			#header .pageThree .columnRight{
+				/* margin-top: 30px; */
+				align-items: center;
+				width: 50%;
+				border-bottom: solid medium #a4a4a4;
+			}
+
+			#header #owner{
+				margin-top: 50px;
+			}
+
+			#header .pageFour{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageFour .columnLeft{
+				width: 50%;
+				border-top: solid medium #810081;
+			}
+
+			#header .pageFour .columnRight{
+				margin-top: auto;
+				margin-bottom: auto;
+				width: 50%;
+				border-bottom: solid medium #810081;
+			}
+
+			#header .pageFive{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageFive .columnLeft{
+				width: 50%;
+				border-top: #000000 solid thick;
+			}
+
+			#header .pageFive .columnRight{
+				margin-top: 40px;
+				width: 50%;
+				border-bottom: #000000 solid thick;
+			}
+
+			#header .pageSix{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageSix .columnLeft{
+				width: 50%;
+				border-top: #ffffff solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageSix .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #ffffff solid thick;
+			}
+
+			#header .pageSeven{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageSeven .columnLeft{
+				width: 50%;
+				border-top: #810081 solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageSeven .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #810081 solid thick;
+			}
+
+			#header .pageEight{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+
+			#header .pageEight .columnLeft{
+				width: 50%;
+				border-top: #ffffff solid thick;
+				margin-top: 50px;
+			}
+
+			#header .pageEight .columnRight{
+				margin-top: auto;
+				width: 50%;
+				border-bottom: #ffffff solid thick;
+			}
+
+			#header .pageNine{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#header #womanCalc .pageTwo .columnRight img{
+				max-width: 75%;
+			}
+
+			#header .quotes{
+				font-style: italic;
+				font-size: large;
+				color: white;
+			}
+			
+
+			#bookPic{
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
+			}
+
+			#header .content .inner .salesText .purpleHeading{
+				color: #612f92;
+				/* text-align: center; */
+				text-decoration: underline;
+				/* margin-left: auto;
+				margin-right: auto;
+				max-width: 33%; */
+			}
+
+			@media (max-width:620px){
+				#phone, #doors, #paperwork{
+					display: none;
+				}
+			}
+
+			
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
