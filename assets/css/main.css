@@ -1384,10 +1384,13 @@ input, select, textarea {
 			#header .pageOne .topSection{
 				display: flex;
 				flex-direction: row;
+				
 			}
 
 			#header .pageOne .columnLeft{
 				width: 50%;
+				border-top: #000000 solid medium;
+				
 			}
 
 			#header .pageOne .columnRight{
@@ -1395,19 +1398,26 @@ input, select, textarea {
 				
 			}
 
+			#header .pageOne .bottomSection{
+				border-bottom: solid medium rgba(0, 0, 0, 1);
+				margin-bottom: 2rem;
+			}
+
 			#header .pageTwo{
 				display: flex;
 				flex-direction: row;
+				margin-top: 2rem;
 			}
 
 			#header .pageTwo .columnLeft{
 				width: 50%;
+				border-top: #ffffff solid medium;
 			}
 
 			#header .pageTwo .columnRight{
 				margin-top: 10%;
 				width: 50%;
-				
+				border-bottom: solid medium white;
 			}
 
 			#header .pageThree{
@@ -1418,12 +1428,14 @@ input, select, textarea {
 
 			#header .pageThree .columnLeft{
 				width: 50%;
+				border-top: #a4a4a4 solid medium;
 			}
 
 			#header .pageThree .columnRight{
-				margin-top: 30px;
+				/* margin-top: 30px; */
+				align-items: center;
 				width: 50%;
-				
+				border-bottom: solid medium #a4a4a4;
 			}
 
 			#header #owner{
@@ -1438,12 +1450,31 @@ input, select, textarea {
 
 			#header .pageFour .columnLeft{
 				width: 50%;
+				border-top: solid medium #810081;
 			}
 
 			#header .pageFour .columnRight{
+				margin-top: auto;
+				margin-bottom: auto;
+				width: 50%;
+				border-bottom: solid medium #810081;
+			}
+
+			#header .pageFive{
+				display: flex;
+				flex-direction: row;
+				margin-top: 50px;
+			}
+
+			#header .pageFive .columnLeft{
+				width: 50%;
+				border-top: #000000 solid medium;
+			}
+
+			#header .pageFive .columnRight{
 				margin-top: 40px;
 				width: 50%;
-				
+				border-bottom: #000000 solid medium;
 			}
 
 			#header #womanCalc .pageTwo .columnRight img{
